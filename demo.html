@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản Lý Sinh Viên</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body onload="renderlistStudent()">
+
+<div class="form-student">
+    <h1>Thông Tin Học Viên C10i22</h1>
+    <label>Name</label>
+    <input type="text" id="fullname"/>
+    </br>
+
+    <label>Age</label>
+    <input type="text" id="age"/>
+    </br>
+
+    <label>Address</label>
+    <input type="text" id="address"/>
+    </br>
+
+    <label>Phone Number</label>
+    <input type="text" id="number"/>
+    </br>
+
+    <label >Email</label>
+    <input type="text" id="email"/>
+    </br>
+
+    <label>Gender</label>
+    <input type="radio" name="gender" id="male" value="1"/> Male
+    <input type="radio" name="gender" id="female" value="2"/> Female
+    </br>
+
+    <button onclick="save()" >Save</button>
+</div>
+
+
+<div class="list-student" id="list-student">
+    <h1 style="text-align: center">Danh Sách Sinh Viên</h1>
+    <table id="view-student" width="100%" border="1" cellpadding="0" cellpadding="0">
+    </table>
+
+</div>
+<script src="js.js"></script>
+</body>
+</html>

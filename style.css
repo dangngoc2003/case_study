@@ -1,0 +1,55 @@
+body {
+
+    padding: 0px;
+    margin: 0px;
+}
+
+div.form-student {
+    border: 1px solid #bb2c2c;
+    color: crimson;
+    margin: 25px;
+    padding: 10px;
+    float: left;
+    align-items: center;
+
+}
+
+div.list-student {
+
+    color: crimson;
+    width: 1370px;
+    border: 3px solid #000000;
+    margin: 48px;
+    padding: 30px;
+    float: left;
+}
+
+h2 {
+    background: cornflowerblue;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+div.form-student label {
+    width: 150px;
+    float: left;
+}
+
+div.form-student input[type="text"] {
+
+    background:slategrey;
+    margin-bottom: 10px;
+    width:  200px;
+    padding: 5px;
+}
+
+div.form-student button {
+    background: crimson;
+    margin-bottom: 5px;
+    width: 100px;
+    padding: 5px;
+}
+
+button {
+    margin-top: 15px;
+}
